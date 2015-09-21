@@ -1,0 +1,31 @@
+<div class="modular-row features {{ page.header.class}}">
+    <div class="content">
+    {{ content }}
+    <div class="feature-items">
+    {% for feature in page.header.features %}
+           <div class="feature">
+            {% set featureImg = page.media[feature.image_name] %}
+            {% if featureImg %}
+            {% if feature.image_align %}
+            {{featureImg.Resize(100, 100).html('', '', 'feature-image-' ~ feature.image_align)}}
+            {% else %}
+            {{featureImg.Resize(100, 100).html('', '', '')}}
+            {% endif %}
+            {% if feature.image_align %}
+            <div class="feature-content image-offset-{{feature.image_align}}">
+            {% else %}
+            <div class="feature-content">
+            {% endif %}
+            {% endif %}
+            {% if feature.header %}
+            <h4>{{ feature.header }}</h4>
+            {% endif %}
+            {% if feature.text %}
+            <p>{{ feature.text }}</p>
+            {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+h2 {
+    letter-spacing: 0px;
+}
+
+.content {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.module-text-image {
+    padding:10px;
+    border:2px solid #1bb3e9;
+    background-color:#ffffff;
+}
+
+.module-text-content {
+	overflow: hidden;
+}
+
+.image-offset-left {
+    margin-left: 8rem;
+}
+
+.image-offset-right {
+    margin-right: 8rem;
+}
+
+.feature-image-left {
+    float: left;
+}
+
+.feature-image-right {
+    float: right;
+}
+
+.showcase-bg {
+    background-color: #1bb3e9;
+}

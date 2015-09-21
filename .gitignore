@@ -1,0 +1,19 @@
+# Project Specific
+
+accounts
+.sass-cache
+
+plugins/admin
+plugins/email
+plugins/form
+plugins/login
+
+### Linux ###
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+

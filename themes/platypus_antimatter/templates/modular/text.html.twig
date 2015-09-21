@@ -1,0 +1,13 @@
+<div class="modular-row callout">
+    <div class="content">
+    {% set image = page.media.images|first %}
+    {% if image %}
+        {{ image.cropResize(400,400).html('','','module-text-image align-'~page.header.image_align) }}
+        <div class="module-text-content">    
+    {% endif %}
+{{ content }}
+    {% if image %}
+        </div>
+    {% endif %}
+    </div>
+</div>

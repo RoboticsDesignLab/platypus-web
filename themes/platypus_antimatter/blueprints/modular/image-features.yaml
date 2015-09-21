@@ -1,0 +1,40 @@
+title: Image Features
+@extends: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        advanced:
+          fields:
+            columns:
+              fields:
+                column1:
+                  fields:
+                    name:
+                        default: modular/image-features
+                      @data-options: '\Grav\Common\Page\Pages::modularTypes'
+            overrides:
+              fields:
+                header.template:
+                  default: modular/image-features
+                  @data-options: '\Grav\Common\Page\Pages::modularTypes'
+        features:
+          type: tab
+          title: Image Features
+          fields:
+            header.features:
+              name: features
+              type: list
+              label: Features
+
+              fields:
+                .image_name:
+                  type: text 
+                  label: Image Name
+                .header:
+                  type: text
+                  label: Header
+                .text:
+                  type: text
+                  label: Text
