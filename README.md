@@ -22,8 +22,3 @@ This application uses Open Source components. You can find the source code of th
 Project: Grav (https://github.com/getgrav/grav  
 Copyright (c) 2014 Grav  
 License (MIT) https://github.com/getgrav/grav/blob/develop/LICENSE  
-
-
-## License
-
-TODO: Write license
