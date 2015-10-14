@@ -7,7 +7,7 @@ buttons:
         primary: '1'
     2:
         text: Github
-        url: 'https://github.com/RoboticsDesignLab/platypus'
+        url: 'https://github.com/RoboticsDesignLab/OpenPlatypus'
         primary: '0'
 ---
 
