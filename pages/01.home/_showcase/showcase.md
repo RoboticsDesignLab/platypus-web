@@ -2,8 +2,8 @@
 title: Platypus
 buttons:
     1:
-        text: Login
-        url: 'http://platypus2.uqcloud.net/'
+        text: Demo
+        url: 'https://platypus-demo.uqcloud.net'
         primary: '1'
     2:
         text: Github
