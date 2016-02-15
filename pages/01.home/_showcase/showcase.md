@@ -1,14 +1,24 @@
 ---
 title: Platypus
-buttons:
-    1:
-        text: Demo
-        url: 'https://platypus-demo.uqcloud.net'
-        primary: '1'
-    2:
-        text: Github
-        url: 'https://github.com/RoboticsDesignLab/OpenPlatypus'
-        primary: '0'
+lines:
+    buttons:
+        1:
+            text: Demo
+            url: 'https://platypus-demo.uqcloud.net'
+            primary: '1'
+        2:
+            text: Get Started
+            url: 'get-started'
+            primary: '0'
+        3:
+            text: Github
+            url: 'https://github.com/RoboticsDesignLab/OpenPlatypus'
+            primary: '0'
+    portal:
+        0:
+            text: UQ Portal
+            url: 'http://platypus2.uqcloud.net'
+            primary: '0'
 ---
 
 # Platypus 
