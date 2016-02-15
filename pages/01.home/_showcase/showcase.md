@@ -6,10 +6,6 @@ lines:
             text: Demo
             url: 'https://platypus-demo.uqcloud.net'
             primary: '1'
-        2:
-            text: Get Started
-            url: 'get-started'
-            primary: '0'
         3:
             text: Github
             url: 'https://github.com/RoboticsDesignLab/OpenPlatypus'
