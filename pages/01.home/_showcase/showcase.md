@@ -13,7 +13,7 @@ lines:
         2:
             text: UQ Platypus
             url: 'http://platypus2.uqcloud.net'
-            primary: '0'
+            primary: '2'
 ---
 
 # Platypus 
