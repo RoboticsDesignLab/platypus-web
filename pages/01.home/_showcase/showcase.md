@@ -10,8 +10,7 @@ lines:
             text: Github
             url: 'https://github.com/RoboticsDesignLab/OpenPlatypus'
             primary: '0'
-    portal:
-        0:
+        2:
             text: UQ Platypus
             url: 'http://platypus2.uqcloud.net'
             primary: '0'
