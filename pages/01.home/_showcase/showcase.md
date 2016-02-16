@@ -12,11 +12,11 @@ lines:
             primary: '0'
     portal:
         0:
-            text: UQ Portal
+            text: UQ Platypus
             url: 'http://platypus2.uqcloud.net'
             primary: '0'
 ---
 
 # Platypus 
 ## Question-based peer review
-#### Replication & randomization of reviewing supporting faster, richer, and more diverse feeback
+#### Replication & randomization of reviewing supporting faster, richer, and more diverse feedback
