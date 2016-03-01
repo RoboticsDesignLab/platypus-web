@@ -1,5 +1,6 @@
 ---
 title: Platypus
+lines:
 buttons:
     1:
         text: Demo
