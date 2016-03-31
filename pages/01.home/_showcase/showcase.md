@@ -14,6 +14,11 @@ lines:
             text: Github
             url: 'https://github.com/RoboticsDesignLab/OpenPlatypus'
             primary: '0'
+    info:
+        1:
+            text: Get Started
+            url: get-started
+            primary: 0
 ---
 
 # Platypus 
